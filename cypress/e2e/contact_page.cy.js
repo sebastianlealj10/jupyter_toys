@@ -16,4 +16,4 @@ describe('Validation over the Contact page - Test cases 1 and 2', () => {
     cy.visit('https://jupiter.cloud.planittesting.com/');
     cy.contains('Contact').click();
   });
-})
+});
