@@ -4,7 +4,8 @@
   "description": "Automation Tester Assessment",
   "main": "index.js",
   "scripts": {
-    "cypress:open": "cypress open"
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run --browser chrome"
   },
   "repository": {
     "type": "git",
