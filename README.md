@@ -51,12 +51,6 @@ This will run the tests on Chrome by default.
 validate_total(['Fluffy Bunny', 'Stuffed Frog', 'Valentine Bear']);
 ```
 A complete data provider can create other arrays of toys and change the toys that are added to the cart. As the test does not depend on the sorting of the toys if they are sorting differently the tests should keep working well.
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
 
 ## Notes
 
