@@ -27,7 +27,8 @@ This will run the tests on Chrome by default.
 ## Considerations
 
 - This project just have one dependency to cypress.
-- This project does not use Cucumber (BDD) to write the tests, tests are written on Jasmine syntaxis.
+- The test suits are gruped by page, so each file in the e2e folder represents the test for one page of the application, if a great amount of tests are written for the same page, it is possible to create folder for the page and group the tests for that particual page in files using a particular sorting.
+- This project does not use Cucumber (BDD) to write the tests, tests are written on Jasmine syntaxis. The describe specifies a group of specs like a test suite and each it is a particular spec. https://jasmine.github.io/tutorials/your_first_suite 
 - This project runs over Chrome by default.
 - This project runs from Command Line using the command specified before with the next output
 
