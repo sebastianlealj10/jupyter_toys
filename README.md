@@ -63,15 +63,14 @@ Please make sure to update tests as appropriate.
 This solution is oriented to the best practices for Cypress, using javascript functions and cypress commands, a different solution over Webdriver.io/Selenium using page object model will be provided.
 
 ## Questions
-1. What other possible scenarios would you suggest for testing the Jupiter Toys application? \
- On the contact page, some additional negative test cases can be added, for example using special characters in the Forename and message fields and using an invalid email format in the email text field. \
+1. What other possible scenarios would you suggest for testing the Jupiter Toys application? <br />
+ On the contact page, some additional negative test cases can be added, for example using special characters in the Forename and message fields and using an invalid email format in the email text field. <br />
 For the shop page, assertions over the empty cart button need to be added and over the remove item button as well. Additional tests over the quantity textbox can be added and the checkout page needs to be tested.
 Finally, the test suite should make assertions over the login feature.
 2.	Jupiter Toys is expected to grow and expand its offering into books, tech, and modern art. We are expecting the of tests will grow to a very large number. \
-2.1	What approaches could you used to reduce overall execution time? \
+2.1	What approaches could you used to reduce overall execution time? <br />
 The best approach to reduce the overall execution time is using light and specific functions for each test just like test case 4 which takes just 6 seconds to finish, using the headless mode helps to reduce the overall time of execution too, and keep it the tests simple and accurate with each business flow.
 2.2	How will your framework cater for this? \
-The framework is going to be built keeping the same code standards like using light and custom javascript functions, running in headless mode, and keep the tests simple and brief.
-
-3.	Describe when to use a BDD approach to automation and when NOT to use BDD.
+The framework is going to be built keeping the same code standards like using light and custom javascript functions, running in headless mode, and keep the tests simple and brief. <br />
+3.	Describe when to use a BDD approach to automation and when NOT to use BDD. <br />
 I would use BDD when the stakeholders are sending the use cases or business flows in BDD language, so it is important to keep the tests using the same language to check that everything is being tested as expected, however, the stakeholders usually do not use that specific language so adding an extra BDD layer does not come any benefit and on the contrary may become the framework more complex and slowly, in this case, is most recommended to use a simple test format like the Jasmine syntaxis and add a good reporter to inform the result across the stakeholders
