@@ -5,7 +5,7 @@ Technical assessment of test automation.
 ## Installation
 
 - Clone the repo from https://github.com/sebastianlealj10/jupyter_toys
-- Ensure you have node installed globally in your pc, the recommended node version is 14. Install the dependencies in the project folder using the next npm command.
+- Ensure you have node installed globally in your pc, the recommended node version is >=14. Install the dependencies in the project folder using the next npm command.
 ```bash
 npm install
 ```
