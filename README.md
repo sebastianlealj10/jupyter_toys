@@ -17,7 +17,7 @@ To open the tests you can use the next script
 npm run cypress:open
 ```
 
-To run it from command console you can use
+To run it from command line you can use
 
 ```bash
 npm run cypress:run
@@ -30,7 +30,7 @@ This will run the tests on Chrome by default.
 - The test suits are gruped by page, so each file in the e2e folder represents the test for one page of the application, if a great amount of tests are written for the same page, it is possible to create folder for the page and group the tests for that particual page in files using a particular sorting.
 - This project does not use Cucumber (BDD) to write the tests, tests are written on Jasmine syntaxis. The describe specifies a group of specs like a test suite and each it is a particular spec. https://jasmine.github.io/tutorials/your_first_suite 
 - This project runs over Chrome by default.
-- This project runs from Command Line using the command specified before with the next output
+- This project runs from Command Line using the command specified before with the next output, if you want to run this test framework from a CI/CD system, you will need to setup the environment with node, npm and a chrome navigator, after that you can use the command to run the tests.
 
 ```bash
 ====================================================================================================
